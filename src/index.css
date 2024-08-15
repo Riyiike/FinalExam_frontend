@@ -16,7 +16,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-* Additional Custom Styles */
+/* * Additional Custom Styles */
 .custom-button {
   background-color: #ff6347; /* Custom Tomato color */
   color: white;
