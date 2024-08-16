@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const BookCard = ({ book,handleDelete }) => {
+const BookCard = ({ book, handleDelete }) => {
+
+    console.log(handleDelete);
   return (
     <div className="card-container">
       <img

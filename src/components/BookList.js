@@ -36,9 +36,9 @@ const BookList = () => {
     try {
       await deleteBook(id); 
       console.log("delete item checked")
-      // setBooks(books.filter(book => book._id !== id));
+      setBooks(books.filter(book => book._id !== id));
     } catch (error) {
-      console.error('Error deleting book:', error);
+      console.error('Error ', error);
     }
   };
 
@@ -47,7 +47,7 @@ const BookList = () => {
 
     books.length === 0
       ? <p>There is no book record!</p>
-      : books.map((book, k) =>           <BookCard book={book} key={k} onDelete={handleDelete} />
+      : books.map((book, k) =>           <BookCard book={book} key={k} handleDelete={handleDelete} />
       // console.log(books)
     );
 
