@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* normal css style */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,9 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* * Additional Custom Styles */
-.custom-button {
-  background-color: #ff6347; /* Custom Tomato color */
+.background1 {
+  background-color: #4753ff;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -26,5 +25,5 @@ code {
 }
 
 .custom-button:hover {
-  background-color: #ff4500; /* Darker shade of Tomato */
+  background-color: #ff0044;
 }
